@@ -40,7 +40,11 @@ This dashboard provides insights into healthcare billing, focusing on billing am
 ![](Drillthrough.png)
 ## Drill Through Functionality
 Users can toggle from **Overview page** to view **Details page** on the report. Users can **download** this as excel or CVS for share or analysis
-  
+
+## Details Page
+-Details page with *Page Navigation* to *Go Back * to Overview page.
+
+ ![](details.png)
 
 ## Publish and share :
 
