@@ -33,28 +33,20 @@ This dashboard provides insights into healthcare billing, focusing on billing am
 Add custom columns, KPI, Field Parameters etc. Crea
   
   
-![](metrics table.png)
+![](metrics.png)
 
 - Testing Report, Data validation , Performance testing : Initial testing report renders well, slicers filters respond correctly
   Performance analyzer for most expensive metric or resource, this can be evaluated in **DAX Studio** for analysis. Apply Best Practice Rules
   using Tabular Editor.
 - Sample check of **Performance Analyzer** we see below measure with highest times. 
   
-![](analyzer.png)
-
-- Sample check of **Root Cause Model Analysis** : What could me some clean up efforts to optimize the model ?
-  **Remove the First name and last name columns, change date table to
-  only date not datetime as examples**
+## Technical Highlights
+- DAX Measures KPIs such as *Avg Billing Per Visit*
+- Pre-aggregated metrics:
+- Drill-through Feature: Allow users to toggle and view details on the report. Users can **download** this as excel or CVS for share
   
-![](daxstudio.png)
+![](Drillthrough.png)
 
-## Recommendations :
-
-- Train Low-Performing Agents: Identify who they are and when this happens.
-  Focus on agents with high dropped calls to improve their efficiency and deal conversion rates.
-- Optimize Call Timing: Study patterns for best times to reach customers (e.g., Tuesday success) and shift efforts towards those periods.
-- Investigate : Why calls are being dropped (technical issues, insufficient training, or process gaps) and address them to improve reach and deals.
-- Evaluate weekend performance : To determine if increasing staffing or reallocating resources can boost deal closures.
 
 ## Publish and share :
 
