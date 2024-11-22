@@ -1,5 +1,5 @@
-# POC--Healthcare-Power-BI-Dashboard
-# Call Center Metrics Dashboard
+# Healthcare PowerBI Dashbord
+
 ![](dashboard.png)
 
 
