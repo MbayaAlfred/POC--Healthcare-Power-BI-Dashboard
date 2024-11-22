@@ -51,7 +51,7 @@ Add custom columns, KPI, Field Parameters etc. Crea
 ## Publish and share :
 
 - *Interact with the report here* :
-  [Call Center Metrics Dashboard](https://app.powerbi.com/reportEmbed?reportId=98b176ee-a109-4f2e-904f-f7170c3aee5b&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f)
+  [Healthcare Provider Dashboard](https://app.powerbi.com/reportEmbed?reportId=0e56522c-bdd0-4810-bde5-0be28b0045e0&autoAuth=true&ctid=78d1fb89-a6cc-4862-a67c-a7287504e26f)
   
 
 
