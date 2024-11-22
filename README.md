@@ -1,9 +1,9 @@
-# Healthcare PowerBI Dashbord
+# Healthcare Power BI Dashbord
 
-![](dashboard.png)
+![](POC.png)
 
 
-## **Purpose  Sample POC**
+## Purpose
 
 This dashboard provides insights into healthcare billing, focusing on billing amounts, costs, and patient-related financial metrics. It helps stakeholders understand key metrics such as:
 - Total Billing Amount and Average Billing Per Visit
@@ -12,10 +12,12 @@ This dashboard provides insights into healthcare billing, focusing on billing am
 - Financial contributions of insurance and out-of-pocket payments
  
 
-## Main features
-- Interactive filtering by year, month, and time of day.
-- Visual analysis of response time trends and areas for improvement.
-- Agent-specific performance metrics and call success rates.
+##Key Features
+- KPIs at the Top: The key performance indicators (KPIs) such as total billing amount, average billing per visit, and specific costs.
+- Filters Panel: Dynamic filters (e.g., Patient Name, Provider Name, Insurance Provider, Diagnosis, and Date) allow users to customize their views for detailed insights.
+- Breakdowns:
+  By Procedure, a bar chart showing total billing amounts by medical procedure. By Department, a horizontal bar chart highlighting contributions of various departments (e.g., Cardiology, Orthopedics)
+   And Diagnosis and Service Type, a stacked bar chart breaking down diagnosis-based billing amounts by service type (Emergency, Inpatient, Outpatient).
 
 ## Tools and Technologies Used
 - Power BI:  **Version: 2.138.1004.0 64-bit (November 2024)**
@@ -23,20 +25,15 @@ This dashboard provides insights into healthcare billing, focusing on billing am
 - Requirements : Analyze and create Healthcare Metrics to meet requirements, consult with our *England Stakeholders* for imput, layout and on time completion
 - Gather and Prep the Data : Connect to source data using PBI source data experience, this case Excel
 - Clean and Transform Data : Use Power Query Editor (Filter, Merge, Rename, remove dups etc..)
+- Create base **STAR SCHEMA MODEL**, implementating filtering. Add **Dynamic DAX CALENDAR**
   
-![](powerquery.png)
+![](model.png)
 
-- Use **DAX** to perform advanced calculations and create custom aggregations. Example to find out by Month over Month for call Deals.
-  Add custome columns, KPI, Field Parameters etc
+- Use **DAX** to perform advanced calculations and create custom aggregations and store them for easy access. 
+Add custom columns, KPI, Field Parameters etc. Crea
   
-![](dax.png)
-
-- Report Design: Used custom Template as background to add fields into the canvass. To created Stacked bar chart (Comparing 2 data points), custome Cards, Field parameters
-  filters, slicers
-- Advanced Power BI Techniques : Interactive bookmarks, Pre-Build Custome Themes, KPI Switch table, Field parameter slicers,
-  DAX folders, **Dynamic Conditional formatting** 
   
-![](formating.png)
+![](metrics table.png)
 
 - Testing Report, Data validation , Performance testing : Initial testing report renders well, slicers filters respond correctly
   Performance analyzer for most expensive metric or resource, this can be evaluated in **DAX Studio** for analysis. Apply Best Practice Rules
